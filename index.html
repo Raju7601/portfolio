@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio </title>
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/8733c4d3de.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <h1>Raju's Portfolio</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#ab">About</a></li>
+        <li><a href="#pj">Projects</a></li>
+        <li><a href="#sec">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <p>Student at NRI</p><br>
+      <h1>Hi, I'm <span>Raju </span>Beheraa</h1>
+      <h4>Aspiring software and web developer passionate about building efficient, user-friendly applications.</h4>
+    </div>
+  </div>
+  <a href="#ab"class="btn">known me Better</a>
+  </div>
+  </div>
+</div>
+<!-- --------------about------------>
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/raju.jpeg">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title" id="ab">About Me</h1>
+        <p>I am a final-year student at Nri Institute of Technology, specializing on artificial 
+          intelligence and machine learning within the field of computer science and engineering.
+          I have good communication and presentation skills, and I get along well with others. 
+          I've always valued quality over quantity in my work. I'm searching for internships 
+          right now to expand my knowledge and abilities.</p><br>
+
+          <div class="tab-titles" >
+            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p><br>
+            <p class="tab-links" onclick="opentab('programming')">Languages</p><br>
+            <p class="tab-links" onclick="opentab('education')" >Education</p><br>
+            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p><br>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <!--<ul>
+              <li><span>Communication</span><br>In both english & Telugu</li>
+              <li><span>management</span><br>like time management,team management</li>
+              <li><span>Problem Solving</span><br>solved real time problems</li>
+              <li><span>Team work</span><br>colloborate with others</li>
+            </ul>>-->
+            <p class="p1">Communication
+              <div class="skill-container">
+                <div class="skill com"></div>
+              </div>
+            </p><br>
+            <p class="p1">Time management
+              <div class="skill-container">
+                <div class="skill tm"></div>
+              </div>
+            </p><br>
+            <p class="p1">Problem Solving
+              <div class="skill-container">
+                <div class="skill ps"></div>
+              </div>
+            </p><br>
+            <p class="p1">Team Work
+              <div class="skill-container">
+                <div class="skill tw"></div>
+              </div>
+            </p><br>
+          </div>
+          <div class="tab-contents" id="programming">
+            <!--
+            <ul>
+              <li><span>Python</span><br>Advance</li>
+              <li><span>Java</span><br>Medium</li>
+              <li><span>C</span><br>Basic</li>
+              <li><span>Html,Css</Html></span><br>Good</li>
+            </ul>  -->
+            <p class="p1">Html
+              <div class="skill-container">
+                  <div class="skill html"></div>
+                </div>
+              </p><br>
+              <p class="p1">Css
+                  <div class="skill-container">
+                      <div class="skill css"></div>
+                  </div>
+              </p><br>
+              <p class="p1">Python
+                  <div class="skill-container">
+                      <div class="skill python"></div>
+                  </div>
+              </p><br>
+              <p class="p1">Java
+                  <div class="skill-container">
+                      <div class="skill java"></div>
+                  </div>
+              </p><br>
+              <p class="p1">js
+                  <div class="skill-container">
+                      <div class="skill c"></div>
+                  </div>
+              </p><br>
+          </div>
+          <div class="tab-contents" id="education"> 
+            <!--<ul>
+              <li><span>2021 - current</span><br>B.Tech(CSE-AIML)</li>
+              <li><span>2019-2021</span><br>Intermediate(MPC)</li>
+              <li><span>2019-2021</span><br>10th(SSC)</li>
+            </ul>-->
+            <ul>
+              <li><span><h2>2021-2025:<white>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.tech-CSE(AIML) at NRI Institute</white></h2></span><br></li>
+              <li><span><h2>2019-2021:<white>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intermediate-MPC at PB.Siddhartha</white></h2></span><br></li>  
+              <li><span><h2>2019-2021:<white>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10th-SSC at S.T.V.R.M.C.H</white></h2></span><br></li>
+            </ul>
+          </div>
+          <div>
+            <div class="tab-contents" id="hobbies">
+              <ul>
+                <li><p><i class="fa-solid fa-chess"></i>Playing Chess</p></li><br>
+                <li><p><i class="fa-solid fa-music"></i>Listening Music</p></li><br>
+                <li><p><i class="fa-solid fa-video"></i>spending time with friends & family</p></li>
+              </ul>
+
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!----------My projects----------->
+<div id="project">
+  <div class="container">
+    <h1 class="sub-title" id="pj">Projects</h1>
+    <div class="project-list">
+      <div class="project">
+        <img src="images/weather1.png">
+        <div class="layer">
+          <h3>Weather App</h3>
+          <p>Developed a responsive weather app using HTML, CSS, and JavaScript that fetches real-time weather data via API.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/taskify.jpeg">
+        <div class="layer">
+          <h3>Taskify</h3>
+          <p>Built a simple To-Do List application in Java to manage tasks with add, delete, and display functionalities using object-oriented principles.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/cal.jpeg">
+        <div class="layer">
+          <h3>Calculator</h3>
+          <p>Created a basic calculator in Java with a GUI to perform standard arithmetic operations like addition, subtraction, multiplication, and division.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/snake.jpeg">
+        <div class="layer">
+          <h3>Snake Game</h3>
+          <p>Developed a classic Snake Game in Python using the Pygame library, featuring real-time movement, scoring, and collision detection.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/xox.jpeg">
+        <div class="layer">
+          <h3>Cross and Noughts</h3>
+          <p>Created a cross and Noughts game in Python with a simple interface, allowing two players to play turn-by-turn with win/draw detection logic.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+</div>
+<!-----------contact-------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title" id="sec">Contact me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> beheraraju7601@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> <i class="fa-brands fa-whatsapp"></i>7601054788</p>
+        <div class="social-icons">
+          <!-- <a href="wa.me/7601054788"><i class="fa-brands fa-whatsapp"></i></a> -->
+          <a href="https://www.linkedin.com/in/raju760"><i class="fa-brands fa-linkedin"></i></a>
+          <!-- <a href="#"><i class="fa-brands fa-twitter"></i></a> -->
+          <a href="https://instagram.com/beheraaraju?igshid=MXZ1Y3V3cWM2cDIyMA=="><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="images/Raju Resume (1).pdf" download class="btn btn2">Download Resume</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------->
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+</body>
+</html>
